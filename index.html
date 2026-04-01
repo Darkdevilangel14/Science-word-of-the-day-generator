@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link
+      rel="stylesheet"
+      href="Science-word-of-the-day-generator/src/style.css"
+    />
+    <title>Science Word of the Day Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Science Word of the Day Generator</h1>
+      </header>
+      <main>
+        <form id="word-generator-form">
+          <input
+            type="text"
+            placeholder="Enter a science field/branch"
+            autofocus
+            required
+            class="instructions"
+            id="user-instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="word hidden" id="word"></div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Darkdevilangel14">Kaylah Jacobs </a> and is
+        <a
+          href="https://github.com/Darkdevilangel14/Science-word-of-the-day-generator"
+          >open-sourced on Github
+        </a>
+        and is hosted on
+        <a href="https://science-word-of-the-day-generator.onrender.com"
+          >Render</a
+        >
+      </footer>
+    </div>
+    <script src="Science-word-of-the-day-generator/src/index.js"></script>
+  </body>
+</html>
